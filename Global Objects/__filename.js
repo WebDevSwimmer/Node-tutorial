@@ -5,4 +5,7 @@ function printHello() {
 }
 
 // Now call above function after 2 seconds
-setTimeout(printHello, 2000);
+var t = setTimeout(printHello, 2000);
+
+// Now clear the timer
+clearTimeout(t);
